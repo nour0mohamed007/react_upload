@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_upload/static/css/main.3feeea03.css",
+    "main.js": "/react_upload/static/js/main.5f8d5db9.js",
+    "static/media/pexels-stywo-1261728.jpg": "/react_upload/static/media/pexels-stywo-1261728.8de26c65a39fe7688333.jpg",
+    "index.html": "/react_upload/index.html",
+    "main.3feeea03.css.map": "/react_upload/static/css/main.3feeea03.css.map",
+    "main.5f8d5db9.js.map": "/react_upload/static/js/main.5f8d5db9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3feeea03.css",
+    "static/js/main.5f8d5db9.js"
+  ]
+}
