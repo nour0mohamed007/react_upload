@@ -1,14 +1,26 @@
 {
   "files": {
-    "main.css": "/react_upload/static/css/main.c62eb0d9.css",
-    "main.js": "/react_upload/static/js/main.8dbd5d69.js",
-    "static/media/pexels-stywo-1261728.jpg": "/react_upload/static/media/pexels-stywo-1261728.8de26c65a39fe7688333.jpg",
+    "main.css": "/react_upload/static/css/main.60bd5db0.css",
+    "main.js": "/react_upload/static/js/main.916d7d0e.js",
+    "static/media/young-bearded-man-with-striped-shirt.jpg": "/react_upload/static/media/young-bearded-man-with-striped-shirt.f190534082b394f6e3d2.jpg",
+    "static/media/closeup-shot-handsome-male-smiling.jpg": "/react_upload/static/media/closeup-shot-handsome-male-smiling.c15358d83ed1421ece8a.jpg",
+    "static/media/half-length-shot-cheerful-senior-man-smiles-happily-with-white-teeth-wears-optical-glasses-sweater-isolated-brown-wall.jpg": "/react_upload/static/media/half-length-shot-cheerful-senior-man-smiles-happily-with-white-teeth-wears-optical-glasses-sweater-isolated-brown-wall.a34e14c64bce8a8ae4c2.jpg",
+    "static/media/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling.jpg": "/react_upload/static/media/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling.5c4316d4a6971af7fbc9.jpg",
+    "static/media/handsome-young-man-with-arms-crossed-white-background.jpg": "/react_upload/static/media/handsome-young-man-with-arms-crossed-white-background.150b6a23c0e31f2a1ebf.jpg",
+    "static/media/nike-air-max270-white-sneaker-1z2xvy8j3zhppmku.png": "/react_upload/static/media/nike-air-max270-white-sneaker-1z2xvy8j3zhppmku.bdf20b660350f9d16553.png",
+    "static/media/71VaQ_V6XnL._AC_UY695_-removebg-preview.png": "/react_upload/static/media/71VaQ_V6XnL._AC_UY695_-removebg-preview.fe6083a0f0e48d9bda87.png",
+    "static/media/61-cBsLhJHL._AC_UY695_-removebg-preview.png": "/react_upload/static/media/61-cBsLhJHL._AC_UY695_-removebg-preview.d789c45f5d015a4b47f2.png",
+    "static/media/519MRhRKGFL._AC_UX575_-removebg-preview.png": "/react_upload/static/media/519MRhRKGFL._AC_UX575_-removebg-preview.98544e234ad1a60304cc.png",
+    "static/media/51_P9uAvb1L._AC_UY695_-removebg-preview.png": "/react_upload/static/media/51_P9uAvb1L._AC_UY695_-removebg-preview.bb564a46af68076e715f.png",
+    "static/media/71oEKkghg-L._AC_UX575_-removebg-preview.png": "/react_upload/static/media/71oEKkghg-L._AC_UX575_-removebg-preview.ad931b949ab2db5ba49c.png",
+    "static/media/6125yAfsJKL._AC_UX575_-removebg-preview.png": "/react_upload/static/media/6125yAfsJKL._AC_UX575_-removebg-preview.a71a53b1133ff91b0506.png",
+    "static/media/nike-dunk-high-game-royal-1-1000.webp": "/react_upload/static/media/nike-dunk-high-game-royal-1-1000.a08d46ff30d486da861b.webp",
     "index.html": "/react_upload/index.html",
-    "main.c62eb0d9.css.map": "/react_upload/static/css/main.c62eb0d9.css.map",
-    "main.8dbd5d69.js.map": "/react_upload/static/js/main.8dbd5d69.js.map"
+    "main.60bd5db0.css.map": "/react_upload/static/css/main.60bd5db0.css.map",
+    "main.916d7d0e.js.map": "/react_upload/static/js/main.916d7d0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c62eb0d9.css",
-    "static/js/main.8dbd5d69.js"
+    "static/css/main.60bd5db0.css",
+    "static/js/main.916d7d0e.js"
   ]
 }
