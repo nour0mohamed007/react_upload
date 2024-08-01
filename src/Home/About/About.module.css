@@ -1,0 +1,154 @@
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px   ;
+    margin: auto;
+}
+.text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #333458;
+}
+.text p {
+    color: #333458;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.image {
+    width: 50%;
+    position: relative;
+    background: radial-gradient(circle, rgb(232 219 244) 20%, rgba(255, 255, 255, 1) 50%);
+    z-index: -100;
+}
+.image img {
+    width: 100%;
+    animation: moveUpDown 3s infinite linear;
+}
+ .aboutBtn {
+    padding: 15px 25px;
+    width: 160px;
+    color: #ebeced;
+    background-color: #965ada;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+ .aboutBtn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+ .aboutBtn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+ .aboutBtn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.scribble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Adjusted to be responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 750px; /* Ensure max width */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+@keyframes moveUpDown {
+    0% {
+        transform: rotate(-40deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(-40deg) translateY(-20px);
+    }
+    100% {
+        transform: rotate(-40deg) translateY(0px);
+    }
+}
+@media (max-width: 1024px) {
+    .text h1 {
+        font-size: 4rem;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .aboutContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text h1 {
+        font-size: 3rem;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .aboutContent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text {
+        width: 100%;
+        text-align: center;
+    }
+    .image {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text{
+        margin-top: 50px;
+    }
+    .text h1 {
+        font-size: 2.5rem;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .aboutBtn {
+        width: 140px;
+        font-size: 16px;
+    }
+}

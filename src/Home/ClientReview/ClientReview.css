@@ -1,0 +1,49 @@
+.client-reviews{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient( rgba(255,255,255,1) 0%, rgba(242,217,250,1) 50%, rgba(255,255,255,1) 100%);
+}
+.client-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client-content .img{
+    margin-bottom: 50px;
+}
+.client-content .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    border:  solid 2px #965ada;
+}
+.client-content .review{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review p{
+    width: 50%;
+    text-align: center;
+    color: #333458;
+}
+.reviewer-name h4{
+    color: #333458;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    color: #333458;
+    transition: 0.3s;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    color: #965ada;
+}
+.swiper-pagination-bullet-active {
+    background-color: #965ada;
+}

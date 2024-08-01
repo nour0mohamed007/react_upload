@@ -1,0 +1,20 @@
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cart-text{
+    text-align: center;
+}
+.cart-title{
+    color: #333458;
+}
+.cart{
+    padding: 20px;
+}
+@media (max-width: 480px){
+    .cart{
+        width: 100%;
+    }
+}

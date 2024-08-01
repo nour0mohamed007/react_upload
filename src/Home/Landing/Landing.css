@@ -1,0 +1,199 @@
+.landing {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.landingContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Ensure responsiveness */
+}
+.text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #333458;
+}
+.text p {
+    color: #333458;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.image {
+    width: 50%;
+    position: relative;
+    background: radial-gradient(circle, rgb(232 219 244) 20%, rgba(255, 255, 255, 1) 60%);
+    z-index: -100;
+}
+.image img {
+    width: 100%;
+    animation: moveUpDown 3s infinite linear;
+}
+.image::before {
+    content: 'Nike dunk high';
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: #965ada;
+    color: #ebeced;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    left: 70px;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.image::after {
+    content: '50% Discount';
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    background-color: #965ada;
+    color: #ebeced;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 18px;
+    right: 80px;
+    bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn .landing-button {
+    padding: 15px 25px;
+    width: 160px;
+    color: #ebeced;
+    background-color: #965ada;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn .landing-button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn .landing-button:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+.btn .landing-button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+.scribble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 750px;
+    height: 750px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: rotate(-40deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(-40deg) translateY(-20px);
+    }
+    100% {
+        transform: rotate(-40deg) translateY(0px);
+    }
+}
+.features {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Ensure responsiveness */
+}
+.features-cards {
+    display: flex;
+    align-items: center;
+    margin: 20px; /* Add spacing between cards */
+}
+.features-cards .feature-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #965ada;
+    color: #ebeced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.features-cards .feature-text h4 {
+    font-size: 25px;
+    color: #333458;
+}
+.features-cards .feature-text p {
+    font-size: 18px;
+    color: #333458;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .text, .image {
+        width: 100%; /* Stack elements vertically */
+    }
+    .image{
+        margin-top: 100px;
+    }
+    .image::before {
+        font-size: 16px;
+        left: 20px;
+        top: -10px;
+    }
+    .image::after {
+        font-size: 14px;
+        right: 20px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text h1 {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+    .text p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+    .image::before {
+        font-size: 14px;
+        left: 0;
+        top: 0;
+    }
+    .image::after {
+        font-size: 12px;
+        right: 10px;
+        bottom: 20px;
+    }
+}

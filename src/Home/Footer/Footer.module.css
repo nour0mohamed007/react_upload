@@ -1,0 +1,115 @@
+.footer {
+    padding-top: 60px;
+    padding: 60px;
+    background-color: #965ada;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footerHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerHeading h2 {
+    color: #ebeced;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerContent .inp {
+    width: 50%;
+    padding: 15px 20px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+.footerContent button {
+    background-color: #333458;
+    color: #ebeced;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.successMessage{
+    text-align: center;
+    color: #333458;
+}
+
+.secondFooterContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333458;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.secondFooterContent p {
+    font-size: 18px;
+    color: #ebeced;
+    font-weight: 500;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .footerHeading h2 {
+        font-size: 2.5rem;
+    }
+    .footerContent .inp {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerHeading h2 {
+        font-size: 2rem;
+    }
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerContent .inp {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .footerContent button {
+        width: 80%;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerHeading h2 {
+        font-size: 1.5rem;
+    }
+    .footerContent .inp {
+        width: 90%;
+    }
+    .footerContent button {
+        width: 90%;
+    }
+    .secondFooterContent p {
+        font-size: 16px;
+    }
+}

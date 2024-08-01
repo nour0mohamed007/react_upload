@@ -1,0 +1,45 @@
+.BackDrop{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0;
+    visibility:hidden ;
+    transition: visibility 0s, opacity 0.3s;
+}
+.showBackDrop{
+    visibility: visible;
+    opacity: 0.8;
+}
+.Overlay{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 9999;
+    top: 50%;
+    left: 0;
+    transform: translate(-50% , -50%);
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    height: 100%;
+    overflow-y: hidden;
+}
+.showOverlay{
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 480px){
+    .Overlay{
+        width: 100%;
+    }
+}

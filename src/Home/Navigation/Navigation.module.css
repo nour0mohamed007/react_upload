@@ -1,0 +1,121 @@
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+    transition: all 0.3s ease; /* Add transition */
+
+}
+
+.menu ul li a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(50, 51, 87);
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.menu ul li .last{
+    margin-right: 400px;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+    letter-spacing: 1px;
+    color: #965ada;
+}
+
+.cartIcon {
+    color: #333458;
+    width: 24px;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burgerIcon {
+    color: #333458;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navItems {
+        flex-direction: row;
+        align-items: center;
+    }
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu.showMenu {
+        display: flex;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul li {
+        width: 100%;
+    }
+    .menu ul li a {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+        padding: 15px;
+    }
+    .menu ul li .last{
+        margin-right: 0;
+    }
+    .cart {
+        margin-top: 10px;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+    .menu ul li a {
+        font-size: 16px;
+    }
+    .cartIcon {
+        width: 20px;
+    }
+}

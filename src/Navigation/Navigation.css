@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input{
+    background-color: #ebeced;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    outline-color: #999 ;
+}
+.nav-icons{
+    color: #333458;
+    width: 24px;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+ .nav-icons:hover{
+    color: #262740;
+    transform: scale(1.1);
+}
+.nav-icons:active{
+    transform: scale(1.5);
+}
+.cart{
+    position: relative;
+}
+.counter{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    right: 13px;
+    font-size: 12px;
+}
